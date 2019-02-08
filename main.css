@@ -32,10 +32,11 @@ p{
 
 button{
     display: block; 
+    width: 80%;
     padding: 8%;
-    margin: 0% 8% 5% 5%;
+    margin-left: 8%;
+    margin-bottom: 5%;
     float: left;
-    margin-left:5%;
     font-size: 3em;
 }
 
@@ -58,3 +59,19 @@ button{
 }
 
 
+@media (min-width:500px){
+    button{
+        padding: 20%;
+       
+    }
+}
+
+@media (min-width:700px){
+    button{
+        float: left;
+        padding: 8% 2% 8% 2%;
+        width: 25%;
+        margin: 2%;
+       
+    }
+}
