@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+    display:block;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    background-color: blue;
+    padding: 5%;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+p{
+    padding: 5%;
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+}
+
+button{
+    display: block; 
+    padding: 8%;
+    margin: 0% 8% 5% 5%;
+    float: left;
+    margin-left:5%;
+    font-size: 3em;
+}
+
+.one{
+    background-color: yellow;
+    border: 5px solid purple;
+    color: blue;
+}
+
+.two{
+    background-color: turquoise;
+    border: 5px solid blue;
+    color:blue;
+}
+
+.three{
+    background-color: lime;
+    border: 5px solid blue;
+    color: blue;
+}
+
+
