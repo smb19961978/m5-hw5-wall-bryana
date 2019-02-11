@@ -40,22 +40,27 @@ button{
     font-size: 3em;
 }
 
-.one{
+#one{
     background-color: yellow;
     border: 5px solid purple;
     color: blue;
 }
 
-.two{
+#two{
     background-color: turquoise;
     border: 5px solid blue;
     color:blue;
 }
 
-.three{
+#three{
     background-color: lime;
     border: 5px solid blue;
     color: blue;
+}
+
+#hide{
+    display: none; 
+    float: none;
 }
 
 
